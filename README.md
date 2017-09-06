@@ -6,8 +6,6 @@ In this project, you will be provided with a project skeleton for a DevMountain 
 
 Live Example: <a href="https://devmountain.github.io/angular-2-afternoon/">Click Me!</a>
 
-<b>Finished Image here</b>
-
 ## Step 1
 
 ### Summary
