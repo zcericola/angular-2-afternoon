@@ -4,7 +4,7 @@
 
 In this project, you will be provided with a project skeleton for a DevMountain chat room. It will be up to you to hook up all the Angular files and build out the Angular controller and service to fetch messages from a live API. This project should provide good practice using a controller with a service that makes API calls using `$http`.
 
-Live Example: <a href="#">Click Me!</a>
+Live Example: <a href="https://devmountain.github.io/angular-2-afternoon/">Click Me!</a>
 
 <b>Finished Image here</b>
 
@@ -199,6 +199,10 @@ angular.module('chatroom').controller('mainCtrl', function( $scope, mainSrvc ){
 
 </details>
 
+<br />
+
+<img src="https://github.com/DevMountain/angular-2-afternoon/blob/solution/readme-assets/1.png" />
+
 ## Step 4
 
 ### Summary
@@ -249,6 +253,10 @@ In this step, we'll modify the `HTML` to also display what time the message was 
 ```
 
 </details>
+
+<br />
+
+<img src="https://github.com/DevMountain/angular-2-afternoon/blob/solution/readme-assets/2.png" />
 
 ## Step 5
 
@@ -365,6 +373,10 @@ angular.module('chatroom').controller('mainCtrl', function( $scope, mainSrvc ){
 ```
 
 </details>
+
+<br />
+
+<img src="https://github.com/DevMountain/angular-2-afternoon/blob/solution/readme-assets/1.gif" />
 
 ## Step 6 
 
@@ -517,6 +529,10 @@ angular.module('chatroom').controller('mainCtrl', function( $scope, mainSrvc ){
 ```
 
 </details>
+
+<br />
+
+<img src="https://github.com/DevMountain/angular-2-afternoon/blob/solution/readme-assets/2g.gif" />
 
 ## Black Diamond
 
