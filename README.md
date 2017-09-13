@@ -210,7 +210,7 @@ In this step, we'll modify the `HTML` to also display what time the message was 
 ### Instructions
 
 * Open `index.html`.
-* Add the time the message was created at to the DOM.
+* In the `ng-repeat`, add message's `createdAt` property.
 
 ### Solution
 
