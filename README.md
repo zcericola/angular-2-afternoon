@@ -18,7 +18,7 @@ In this project, you will finish an Angular travel application. You will setup t
 
 ### Summary
 
-In this step, you'll familarize yourself with the existing code base. Pay attention to file structure and what code is already created for you. The Angular application and first route have been created in `app/app.js`. There is also a service file ( `app/mainSrvc.js` ) that is given to you that will hold our static data. There are also various controllers and templates already created throughout the `app` folder.
+In this step, you'll familarize yourself with the existing code base. Pay attention to file structure and what code is already created for you. The Angular application and first route have been created in `app/app.js`. There is also a service file ( `app/mainSrvc.js` ) that is given to you. There are also various controllers and templates already created throughout the `app` folder.
 
 ### Instructions
 
