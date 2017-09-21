@@ -1,0 +1,10 @@
+{
+  "name": "angular-2-afternoon",
+  "version": "1",
+  "scripts": {
+    "dev": "live-server ./"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
