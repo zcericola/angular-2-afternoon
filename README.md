@@ -12,7 +12,7 @@ In this project, you will finish an Angular travel application. You will setup t
 * After `npm install`, run `npm run dev`.
   * Go to provided URL by `live-server` in your browser if it doesn't automatically open a browser window.
 
-<img src="https://github.com/devmountain/angular-3-afternoon/blob/solution/readme-assets/1.png" />
+<img src="https://github.com/devmountain/angular-2-afternoon/blob/solution/readme-assets/1.png" />
 
 ## Step 1
 
@@ -395,7 +395,7 @@ In this step, we'll test the controllers we just made to make sure everything is
 
 ### Solution
 
-<img src="https://github.com/devmountain/angular-3-afternoon/blob/solution/readme-assets/1g.gif" />
+<img src="https://github.com/devmountain/angular-2-afternoon/blob/solution/readme-assets/1g.gif" />
 
 ## Step 5
 
@@ -610,7 +610,7 @@ In this step, we'll hook up the `ui-sref`'s in the template HTML files to allow 
 
 <br />
 
-<img src="https://github.com/devmountain/angular-3-afternoon/blob/solution/readme-assets/2g.gif" />
+<img src="https://github.com/devmountain/angular-2-afternoon/blob/solution/readme-assets/2g.gif" />
 
 ## Step 6
 
@@ -960,7 +960,7 @@ angular.module('devmtnTravel').controller('bookedCtrl', function( $scope, $state
 
 <br />
 
-<img src="https://github.com/devmountain/angular-3-afternoon/blob/solution/readme-assets/3-1g.gif" />
+<img src="https://github.com/devmountain/angular-2-afternoon/blob/solution/readme-assets/3-1g.gif" />
 
 ## Step 8
 
@@ -1078,7 +1078,7 @@ angular.module('devmtnTravel').controller('locationsCtrl', function( $scope, mai
 
 <br />
 
-<img src="https://github.com/devmountain/angular-3-afternoon/blob/solution/readme-assets/4g.gif" />
+<img src="https://github.com/devmountain/angular-2-afternoon/blob/solution/readme-assets/4g.gif" />
 
 ## Step 9
 
@@ -1215,7 +1215,7 @@ angular.module('devmtnTravel').controller('packagesCtrl', function( $scope, $sta
 
 <br />
 
-<img src="https://github.com/devmountain/angular-3-afternoon/blob/solution/readme-assets/5g.gif" />
+<img src="https://github.com/devmountain/angular-2-afternoon/blob/solution/readme-assets/5g.gif" />
 
 ## Contributions
 
