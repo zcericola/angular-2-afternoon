@@ -1,33 +1,60 @@
-<!DOCTYPE HTML>
-<html ng-app="chatroom">
+<!DOCTYPE html>
+<html lang="en" ng-app="devmtnTravel">
   <head>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>DevMtn Travels</title>
+
+    <!-- META INFO -->
+    <meta charset="UTF-8">
+    <meta name="description" content="DevMtn Travels app using ui-routes ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--RESET FILE -->
+    <link rel="stylesheet" href="reset.css">
+
+    <!--MAIN FILE-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- View Styles -->
+    <link rel="stylesheet" href="app/about/about.css">
+    <link rel="stylesheet" href="app/about/adventurers/adventurers.css">
+    <link rel="stylesheet" href="app/about/contact/contact.css">
+    <link rel="stylesheet" href="app/locations/locations.css">
+    <link rel="stylesheet" href="app/packages/packages.css">
+    <link rel="stylesheet" href="app/booked/booked.css">
   </head>
-  <body ng-controller="mainCtrl">
-    <div class="main-container">
-      <h1> DevMountain Chat Room </h1>
-      <form ng-submit="postMessage(message)">
-        <input class="form-control text-box" type="text" ng-model="message" placeholder="Message">
-        <select ng-model="timeSort">
-          <option value="-">Newest</option>
-          <option value="+">Oldest</option>
-        </select>
-      </form>
-      <div class="messages-container">
-        <p ng-repeat="message in messages | orderBy:timeSort + message.createdAt">
-          {{ message.message }} 
 
-          {{ message.createdAt }}
-        </p>
-      </div>
-    </div>
+  <body>
+    <main role="main">
+      <section class="home-page-top-container">
+        <header>
+          <nav>
+            <ul>
+              <!--Navigation Section-->
+              <li><a ui-sref="locations">Locations</a></li>
+              <li><a ui-sref="packages">Packages</a></li>
+              <li><a><img src="./img/DevCircleWhite.svg" alt="DevMountain Logo"></a></li>
+              <li><a ui-sref="home">About</a></li>
+              <li><a ui-sref="contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <h1 class="intro-text">Discover</h1>
+      </section>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
-    <!-- your scripts here -->
-    <script src="js/app.js"></script>
-    <script src="js/mainCtrl.js"></script>
-    <script src="js/mainSrvc.js"></script>
+      <!-- Here we are placing the ui-view tag this is where our views will be injected when we change routes. -->
+      <ui-view></ui-view>
+
+    </main>
+
+    <!-- Including angular and ui-router then our javascript files. ORDER MATTERS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+    <!--Our Custom Script Files-->
+    <script src="app/app.js"></script>
+    <script src="app/locations/locationsCtrl.js"></script>
+    <script src="app/packages/packagesCtrl.js"></script>
+    <script src="app/booked/bookedCtrl.js"></script>
+    <script src="app/mainSrvc.js"></script>
   </body>
 </html>
