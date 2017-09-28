@@ -14,6 +14,10 @@ In this project, you will finish an Angular travel application. You will setup t
 
 <img src="https://github.com/devmountain/angular-2-afternoon/blob/solution/readme-assets/1.png" />
 
+<br />
+
+Live Example: <a href="https://devmountain.github.io/angular-2-afternoon/">Click Me!</a>
+
 ## Step 1
 
 ### Summary
@@ -303,7 +307,7 @@ angular.module('devmtnTravel').controller('bookedCtrl', function( $scope ) {
               <!--Navigation Section-->
               <li><a>Locations</a></li>
               <li><a>Packages</a></li>
-              <li><a><img src="./img/DevCircleWhite.svg" alt="DevMountain Logo"></a></li>
+              <li><a><img src="img/DevCircleWhite.svg" alt="DevMountain Logo"></a></li>
               <li><a>About</a></li>
               <li><a>Contact</a></li>
             </ul>
@@ -428,13 +432,13 @@ In this step, we'll hook up the `ui-sref`'s in the template HTML files to allow 
 
   <section class="adventurers-inner">
     <section class="adventure-card">
-      <img src="../img/Grizzly-Adams.jpg" alt="Grizzly Adams">
+      <img src="img/Grizzly-Adams.jpg" alt="Grizzly Adams">
       <h2>Grizzly Adams</h2>
       <p>Shabby chic 90's drinking vinegar irony kombucha meh. Fashion axe 8-bit everyday carry, locavore shabby chic small batch tote bag salvia ugh semiotics keffiyeh intelligentsia.</p>
     </section>
 
     <section class="adventure-card">
-      <img src="../img/Rally-Sisters.jpg" alt="Rally Sisters">
+      <img src="img/Rally-Sisters.jpg" alt="Rally Sisters">
       <h2>Rally Sisters</h2>
       <p>Shabby chic 90's drinking vinegar irony kombucha meh. Fashion axe 8-bit everyday carry, locavore shabby chic small batch tote bag salvia ugh semiotics keffiyeh intelligentsia.</p>
     </section>
@@ -455,7 +459,7 @@ In this step, we'll hook up the `ui-sref`'s in the template HTML files to allow 
 ```html
 <section class="about-main">
   <div class="about-image">
-      <img src="../img/About-img.jpg" alt="About Page Image">
+      <img src="img/About-img.jpg" alt="About Page Image">
   </div>
 
   <ui-view class="about-inner-right">
@@ -579,7 +583,7 @@ In this step, we'll hook up the `ui-sref`'s in the template HTML files to allow 
               <!--Navigation Section-->
               <li><a ui-sref="locations">Locations</a></li>
               <li><a ui-sref="packages">Packages</a></li>
-              <li><a><img src="./img/DevCircleWhite.svg" alt="DevMountain Logo"></a></li>
+              <li><a><img src="img/DevCircleWhite.svg" alt="DevMountain Logo"></a></li>
               <li><a ui-sref="home">About</a></li>
               <li><a ui-sref="contact">Contact</a></li>
             </ul>
@@ -766,7 +770,7 @@ angular.module('devmtnTravel').service('mainSrvc', function( $http ) {
               <!--Navigation Section-->
               <li><a ui-sref="locations">Locations</a></li>
               <li><a ui-sref="packages">Packages</a></li>
-              <li><a><img src="./img/DevCircleWhite.svg" alt="DevMountain Logo"></a></li>
+              <li><a><img src="img/DevCircleWhite.svg" alt="DevMountain Logo"></a></li>
               <li><a ui-sref="home">About</a></li>
               <li><a ui-sref="contact">Contact</a></li>
             </ul>
