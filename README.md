@@ -623,7 +623,7 @@ In this step, we'll setup the `mainSrvc` to call on a live API for travel and pa
 * GET - `https://practiceapi.devmountain.com/api/travel/travel-info`:
   * Returns an array of travel objects. Travel objects contain the following properties:
     * `country` - String. 
-    * `img` - String ( a filepath to a specific image in the `img/` folder ).
+    * `image` - String ( a filepath to a specific image in the `img/` folder ).
     * `desc` - String.
     * `price` - Number.
 * GET - `https://practiceapi.devmountain.com/api/travel/package-info`:
