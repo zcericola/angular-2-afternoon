@@ -4,6 +4,10 @@
 
 In this project, you will finish an Angular travel application. You will setup the routes and sub routes for the application as well as practice the fundamentals of Angular some more. 
 
+# Live Example
+
+<a href="https://devmountain.github.io/angular-2-afternoon/">Click Me!</a>
+
 ## Setup
 
 * Fork and clone this repository
@@ -13,10 +17,6 @@ In this project, you will finish an Angular travel application. You will setup t
   * Go to provided URL by `live-server` in your browser if it doesn't automatically open a browser window.
 
 <img src="https://github.com/devmountain/angular-2-afternoon/blob/solution/readme-assets/1.png" />
-
-<br />
-
-Live Example: <a href="https://devmountain.github.io/angular-2-afternoon/">Click Me!</a>
 
 ## Step 1
 
