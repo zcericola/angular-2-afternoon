@@ -1,19 +1,19 @@
 <section class="locations-container">
-  <section class="location-card" >
+  <section class="location-card" ng-repeat="location in locations">
     <div class="image-container">
-      <img ng-src="" alt="" />
+      <img ng-src="{{ location.image }}" alt="{{ location.country }}" />
     </div>
 
     <div class="location-inner-left">
-      <h1></h1>
-      <p></p>
+      <h1>{{ location.country }}</h1>
+      <p>{{ location.desc }}</p>
     </div>
 
     <div class="location-inner-right">
       <h3>Package Start At ${{ location.price }}</h3>
-      
+
       <!--This button needs a ui-sref that points to packages-->
-      <button ui-sref="">See country packages</button>
+      <button ui-sref="packages({ country: '{{ location.country }}' })">See country packages</button>
     </div>
   </section>
 </section>

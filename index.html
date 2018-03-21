@@ -30,11 +30,11 @@
           <nav>
             <ul>
               <!--Navigation Section-->
-              <li><a>Locations</a></li>
-              <li><a>Packages</a></li>
+              <li><a ui-sref = "locations">Locations</a></li>
+              <li><a ui-sref = "packages">Packages</a></li>
               <li><a><img src="img/DevCircleWhite.svg" alt="DevMountain Logo"></a></li>
-              <li><a>About</a></li>
-              <li><a>Contact</a></li>
+              <li><a ui-sref = "home">About</a></li>
+              <li><a ui-sref = "contact">Contact</a></li>
             </ul>
           </nav>
         </header>
@@ -50,8 +50,13 @@
     <!-- Including angular and ui-router then our javascript files. ORDER MATTERS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+   
 
     <!--Our Custom Script Files-->
     <script src="app/app.js"></script>
+    <script src="./app/locations/locationsCtrl.js"></script>
+    <script src="./app/packages/packagesCtrl.js"></script>
+    <script src="./app/booked/bookedCtrl.js"></script>
+    <script src="app/mainSrvc.js"></script>
   </body>
 </html>

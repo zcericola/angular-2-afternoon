@@ -1,13 +1,13 @@
 <section class="packages-main">
-  <section class="package-card" >
-    <img ng-src="" alt="" />
+  <section class="package-card" ng-repeat="package in packages">
+    <img ng-src="{{ package.image }}" alt="{{ package.country }}" />
 
-    <h6> <!--The city name goes here--> </h6>
-    <h1><!--The country name goes here--></h1>
-    <p><!--The description goes here--></p>
-    <h3>$<!--The package price goes here--></h3>
+    <h6>{{ package.city }}</h6>
+    <h1>{{ package.country }}</h1>
+    <p>{{ package.desc }}</p>
+    <h3>${{ package.price }}</h3>
 
     <!--This button needs a ui-sref that points to booked-->
-    <button ui-sref="booked">Book Now</button>
+    <button ui-sref="booked({ id: '{{ package.id }}' })">Book Now</button>
   </section>
 </section>
